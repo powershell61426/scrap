@@ -4,5 +4,5 @@ Invoke-Command -Session(Get-PSSession -Id X) -ScriptBlock{
     Set-ItemProperty` 
     -Path "HKCU:\Control Panel\Desktop"` 
     -Name Wallpaper` 
-    -Value "C:\LocalDestination\background.jpg"`
+    -Value "C:\RemoteDestination\background.jpg"`
 }
